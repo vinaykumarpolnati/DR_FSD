@@ -1,0 +1,35 @@
+input[type]{
+	background-color: green;
+	font-size:50px ;
+	color: red;
+	
+}
+input[type="text"]{
+	background-color: gray;
+	color: black;
+	
+}
+a:hover{
+	background-color: gray;
+}
+a:link{
+	color: indigo;
+}
+a:visited{
+	color:deepskyblue;
+	 }
+input[type="email"]{
+	background-color: blue;
+	color: pink;
+	}
+
+a[href]{
+	background-color: yellow;
+	color: hotpink;
+	font-size: 50px;
+	}
+
+
+
+	
+

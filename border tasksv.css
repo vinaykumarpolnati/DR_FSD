@@ -1,0 +1,77 @@
+.mdiv{
+	height: 1300px;
+	width: 1350px;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+}
+
+.dot, .dash, .sol, .doub, .groo, .rid, .ins, .out, .none, .hid{
+	font-size: 50px;
+	height: 200px;
+	width: 600px;
+	position: absolute;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.dot{
+	border: 10px dotted black;
+	margin-left: 20px;
+	margin-top: 50px;
+}
+
+.dash{
+	border: 10px dashed black;
+	margin-left: 730px;
+	margin-top: 50px;
+}
+
+.sol{
+	border: 10px solid black;
+	margin-left: 20px;
+	margin-top: 300px;
+}
+
+.doub{
+	border: 10px double black;
+	margin-left: 730px;
+	margin-top: 300px;
+}
+
+.groo{
+	border: 10px groove black;
+	margin-left: 20px;
+	margin-top: 550px;
+}
+
+.rid{
+	border: 10px ridge black;
+	margin-left: 730px;
+	margin-top: 550px;
+}
+
+.ins{
+	border: 10px inset black;
+	margin-left: 20px;
+	margin-top: 800px;
+}
+
+.out{
+	border: 10px outset black;
+	margin-left: 730px;
+	margin-top: 800px;
+}
+
+.none{
+	border: none;
+	margin-left: 20px;
+	margin-top: 1050px;
+}
+
+.hid{
+	border: hidden;
+	margin-left: 730px;
+	margin-top: 1050px;
+}
